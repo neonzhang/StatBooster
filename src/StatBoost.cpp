@@ -330,7 +330,7 @@ bool StatBoosterCommands::HandleSBAddItemCommand(ChatHandler* handler, uint32 it
     return true;
 }
 
-void AddSCStatBoosterScripts()
+void Addmod_statboosterScripts()
 {
     new StatBoosterCommands();
     new StatBoosterWorld();
